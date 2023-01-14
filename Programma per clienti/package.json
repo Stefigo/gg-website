@@ -1,0 +1,14 @@
+{
+  "name": "giorgios-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Programma.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefano Surian",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
