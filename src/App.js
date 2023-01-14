@@ -3,29 +3,21 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-
 function App() {
   return (
     <div>
-      <TextLinkExample/>
+      <ContainerInsideExample/>
       <header className="App-header">
       </header>
     </div>
   );
 }
 
-
-function TextLinkExample() {
+function ContainerInsideExample() {
   return (
-    <Navbar>
+    <Navbar expand="lg" variant="light" bg="light">
       <Container>
-        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
-          </Navbar.Text>
-        </Navbar.Collapse>
+        <Navbar.Brand href="#">Navbar</Navbar.Brand>
       </Container>
     </Navbar>
   );
